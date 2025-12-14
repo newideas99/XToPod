@@ -1,0 +1,82 @@
+# Environment
+.env
+.env.local
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Data & Output
+data/
+output/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Browser state
+session_state.json
+cookies.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Audio files (they're large, generate locally)
+*.mp3
+*.wav
+*.ogg
+*.m4a
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Reference repos (not part of this project)
+open-notebook-core/
+
+# Raw audio (intermediate files)
+*.raw

@@ -1,0 +1,36 @@
+# Xtopod Requirements
+# For those who prefer requirements.txt over pyproject.toml
+
+# Web scraping
+playwright>=1.40.0
+httpx>=0.25.0
+beautifulsoup4>=4.12.0
+
+# Database
+aiosqlite>=0.19.0
+
+# LLM APIs
+openai>=1.12.0
+anthropic>=0.18.0
+google-generativeai>=0.4.0
+
+# TTS
+elevenlabs>=1.0.0
+google-cloud-texttospeech>=2.14.0
+
+# Audio processing
+pydub>=0.25.1
+
+# Pipeline orchestration
+apscheduler>=3.10.0
+
+# Configuration & utilities
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+python-dotenv>=1.0.0
+rich>=13.7.0
+typer>=0.9.0
+structlog>=24.1.0
+
+# Optional: Prefect for robust orchestration
+# prefect>=2.14.0
